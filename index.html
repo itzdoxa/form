@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="left">
+        <div id="logo">
+            <img src="image/odin-lined.png" alt="odin logo" width="150px" height="200px">
+             <h4>ODIN</h4>
+        </div>
+    </div>
+    <div id="right-container">
+        <h1>This is not a real service! You know you need something like this in your life to help you realise your deepest desires.</h1>
+        <h2>Sign up now to get started.</h2>
+        <h3>You know you want to</h3>
+        <form action="" method="post">
+            <fieldset>
+                <div class="input-container">
+                    <label for="first_name">FIRST NAME</label>
+                    <input type="text" id="first_name" placeholder="bobby" name="first_name" minlength="1" maxlength="20" required>
+                </div>
+                <div class="input-container">
+                    <label for="last_name">LAST NAME</label>
+                    <input type="text" id="last_name" placeholder="johnson" name="last_name" minlength="1" maxlength="20" required>
+                </div>
+                <div class="input-container">
+                    <label for="mail">EMAIL</label>
+                    <input type="email" id="mail" placeholder="bobbyjohnson69@gmail.com" name="email" required>
+                </div>
+                <div class="input-container">
+                    <label for="phone">PHONE NUMBER</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" minlength="10" required>
+                </div>
+                <div class="input-container">
+                    <label for="user_password">PASSWORD</label>
+                    <input type="password" id="user_password" name="password" minlength="8" maxlength="20" required>
+                </div>
+                <div class="input-container">
+                    <label for="confirm_password">CONFIRM PASSWORD</label>
+                    <input type="password" id="confirm_password" name="confirm_password" minlength="8" maxlength="20" required>
+                </div>
+            </fieldset>
+        </form>
+        <button>Create Account</button>
+        <p>Already have an account? <a href="">Log In</a></p>
+    </div>
+    
+</body>
+</html>
